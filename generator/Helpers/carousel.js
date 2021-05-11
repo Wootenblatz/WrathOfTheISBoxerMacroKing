@@ -26,7 +26,7 @@ class Carousel {
     }
 
     getKey() {
-        let key = new Key(this.keyCodes[this.keyIndex]);
+        let key = new Key(this.keyCodes[this.keyIndex], this.modifiers[this.modIndex]);
         this.keyIndex += 1;
         if (this.keyIndex >= this.keyCodes.size()) {
             this.keyIndex = 0;

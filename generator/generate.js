@@ -1,7 +1,7 @@
 try {
     let colorsTest = require('colors');
     let classes = require('./Data/Classes');
-    let carousel = require('./Helpers/carousel');
+    let carousel = require('./Helpers/Carousel');
 } catch (e) {
     console.log(e);
     console.log("");
@@ -9,11 +9,27 @@ try {
     console.log("Run: npm.cmd install");
     process.exit(1);
 }
-const Colors = require('colors');
-const Classes = require('./Data/Classes');
-const Carousel = require('./Helpers/carousel');
-const SpellFilter = require("./Helpers/SpellFilter");
+const Usage = require('./Helpers/Usage');
+const ClassList = require('./Data/Classes');
+const MakeXML = require('./Helpers/MakeXML');
+const usage = new Usage();
 
-let sf = new SpellFilter(1);
+let args = process.argv.slice(2);
 
-console.log(sf.UniqueSpells());
+if (args.length < 1) {
+    usage.Print();
+}
+else {
+    let classChoice = args[0];
+    let classes = new ClassList();
+    let keyOptions = args[1] ? args[1].toLowerCase() : "full";
+    let classIndex = classes.getNames().indexOf(classChoice);
+    if(classIndex >= 0) {
+        let xmlPrinter = new MakeXML(classIndex, keyOptions);
+        console.log(xmlPrinter.DoTheWork());
+    }
+    else {
+        usage.WrongClass(classChoice);
+    }
+
+}
