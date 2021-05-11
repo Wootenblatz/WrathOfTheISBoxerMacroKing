@@ -15,6 +15,11 @@ class ClassList {
         return [this.warrior(), this.paladin(), this.hunter(), this.rogue(), this.priest(), this.deathKnight(), this.shaman(), this.mage(), this.warlock(), this.druid()];
     }
 
+    getNames() {
+        return this.getValues().map( x=> x.name).sort();
+    }
+
+
     warrior() {
         return {id: 1, name: "Warrior", obj: new Warrior()};
     }

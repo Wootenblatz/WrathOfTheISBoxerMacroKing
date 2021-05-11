@@ -28,12 +28,12 @@ class Carousel {
     getKey() {
         let key = new Key(this.keyCodes[this.keyIndex], this.modifiers[this.modIndex]);
         this.keyIndex += 1;
-        if (this.keyIndex >= this.keyCodes.size()) {
+        if (this.keyIndex >= this.keyCodes.length) {
             this.keyIndex = 0;
             this.modIndex += 1;
         }
         return key;
     }
-
-
 }
+
+module.exports = Carousel;

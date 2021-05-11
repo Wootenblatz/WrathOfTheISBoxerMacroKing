@@ -9,6 +9,7 @@ try {
     console.log("Run: npm.cmd install");
     process.exit(1);
 }
+const Colors = require('colors');
 const Usage = require('./Helpers/Usage');
 const ClassList = require('./Data/Classes');
 const MakeXML = require('./Helpers/MakeXML');
