@@ -1,4 +1,5 @@
 class DeathKnight {
+    getClassId() { return 32; }
     getSpells() {
         return [
             {

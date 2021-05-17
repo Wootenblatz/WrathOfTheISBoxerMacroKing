@@ -1,10 +1,16 @@
 const Carousel = require('./Carousel');
 const SpellFilter = require("./SpellFilter");
+const Buffs = require('../Data/Buffs');
+const Dispel = require('../Data/Dispel');
+const Healing = require('../Data/Healing');
 class MakeXML {
     classIndex;
     keyOption;
     spellFilter;
     options;
+    buffs;
+    heals;
+    dispels;
     constructor(classIndex, keyOption) {
         this.classIndex = classIndex;
         this.keyOption = keyOption;
@@ -13,14 +19,23 @@ class MakeXML {
     }
 
     DoTheWork() {
-        let output = this.XmlHeader("WotISBMacroKing-" + this.spellFilter.ClassName());
+        let classname = this.spellFilter.ClassName();
+        let output = this.XmlHeader("WotISBMacroKing-" + classname);
         let spells = this.spellFilter.UniqueSpells();
         let keyMaker = new Carousel(this.options);
+        let buffs = new Buffs();
+        let heals = new Healing();
+        let dispels = new Dispel();
         spells.forEach(function(spell) {
             let key = keyMaker.getKey();
-            output += '&lt;WoWMacro&gt;&lt;MacroCommands&gt;/cast [nochanneling] !' + spell + '&lt;/MacroCommands&gt;&lt;ColloquialName&gt;' + spell + '&lt;/ColloquialName&gt;&lt;Combo&gt;&lt;Combo&gt;&lt;/Combo&gt;';
-            output += '&lt;Modifiers&gt;' + key.modifier + '&lt;/Modifiers&gt;';
+            let extraMods = "[nochanneling] !";
+            if (buffs.isMatch(spell) || dispels.isMatch(spell) || heals.isMatch(spell)) {
+                extraMods = "[target=mouseover,noharm,exists][target=target,noharm,exists][target=focus,noharm,exists][target=player] ";
+            }
+            output += '&lt;WoWMacro&gt;&lt;MacroCommands&gt;/cast ' + extraMods + spell + '&lt;/MacroCommands&gt;&lt;ColloquialName&gt;' + spell + '&lt;/ColloquialName&gt;&lt;Combo&gt;&lt;Combo&gt;&lt;/Combo&gt;';
+            output += '&lt;Modifiers&gt;' + key.modifiers + '&lt;/Modifiers&gt;';
             output += '&lt;Key&gt;&lt;Key&gt;&lt;/Key&gt;&lt;Code&gt;' + key.code + '&lt;/Code&gt;&lt;/Key&gt;&lt;/Combo&gt;&lt;AllowCustomModifiers /&gt;&lt;/WoWMacro&gt;';
+
         });
         output += this.XmlFooter();
 

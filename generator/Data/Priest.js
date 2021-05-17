@@ -1,4 +1,5 @@
 class Priest {
+  getClassId() { return 16; }
   getSpells() {
     return [
       {

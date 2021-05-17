@@ -2,14 +2,17 @@ const ClassList = require('../Data/Classes');
 
 class Usage {
     classChoices;
+
     constructor() {
         this.classChoices = (new ClassList).getValues();
     }
+
     Header() {
         console.clear();
         console.error("Wrath of the ISBoxer Macro King".bold.cyan);
         console.error("");
     }
+
     Print() {
         this.Header();
         console.error("node generate.js ".white + "(class)".yellow + " [key-options]".green + " > your-file-name.xml".white);
@@ -27,15 +30,17 @@ class Usage {
         console.error("Pass NOFUNC to exclude the F1-F9 keys.".gray);
         this.Footer();
     }
+
     WrongClass(classChoice) {
         this.Header();
         console.error("Frostmourne Hungers!  You have failed me...".cyan.bold);
         console.error("-------------------------------------------".cyan);
         console.error("\t" + classChoice.red.bold + " not found.".red);
         console.error("-------------------------------------------".cyan);
-        console.error("Your choices are: ".green + this.classChoices.map(x=>x.name).join(", ").gray);
+        console.error("Your choices are: ".green + this.classChoices.map(x => x.name).join(", ").gray);
         this.Footer();
     }
+
     Footer() {
         console.error("");
         console.error("Exiting...");

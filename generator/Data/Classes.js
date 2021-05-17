@@ -16,7 +16,7 @@ class ClassList {
     }
 
     getNames() {
-        return this.getValues().map( x=> x.name).sort();
+        return this.getValues().map( x=> x.name);
     }
 
 
@@ -62,4 +62,3 @@ class ClassList {
 }
 
 module.exports = ClassList;
-

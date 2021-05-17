@@ -1,4 +1,5 @@
 class Druid {
+    getClassId() { return 1024; }
     getSpells() {
         return [
             {
@@ -4177,9 +4178,8 @@ class Druid {
                 source: [6],
                 rank: "Rank 1",
                 reqclass: 1024,
-            }
+            },
         ];
     }
 }
-
 module.exports = Druid;
