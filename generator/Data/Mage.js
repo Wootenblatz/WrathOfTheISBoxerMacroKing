@@ -397,7 +397,7 @@ class Mage {
             },
             {
                 id: 587,
-                name: "6Conjure Food",
+                name: "Conjure Food",
                 icon: "inv_misc_food_10",
                 level: 6,
                 school: 64,
@@ -412,7 +412,7 @@ class Mage {
             },
             {
                 id: 597,
-                name: "6Conjure Food",
+                name: "Conjure Food",
                 icon: "inv_misc_food_09",
                 level: 12,
                 school: 64,
@@ -441,7 +441,7 @@ class Mage {
             },
             {
                 id: 759,
-                name: "6Conjure Mana Gem",
+                name: "Conjure Mana Gem",
                 icon: "inv_misc_gem_emerald_01",
                 level: 28,
                 school: 64,
@@ -484,7 +484,7 @@ class Mage {
             },
             {
                 id: 990,
-                name: "6Conjure Food",
+                name: "Conjure Food",
                 icon: "inv_misc_food_12",
                 level: 22,
                 school: 64,
@@ -707,7 +707,7 @@ class Mage {
             },
             {
                 id: 3552,
-                name: "6Conjure Mana Gem",
+                name: "Conjure Mana Gem",
                 icon: "inv_misc_gem_emerald_02",
                 level: 38,
                 school: 64,
@@ -848,7 +848,7 @@ class Mage {
             },
             {
                 id: 5504,
-                name: "6Conjure Water",
+                name: "Conjure Water",
                 icon: "inv_drink_06",
                 level: 4,
                 school: 64,
@@ -863,7 +863,7 @@ class Mage {
             },
             {
                 id: 5505,
-                name: "6Conjure Water",
+                name: "Conjure Water",
                 icon: "inv_drink_07",
                 level: 10,
                 school: 64,
@@ -878,7 +878,7 @@ class Mage {
             },
             {
                 id: 5506,
-                name: "6Conjure Water",
+                name: "Conjure Water",
                 icon: "inv_drink_milk_02",
                 level: 20,
                 school: 64,
@@ -907,7 +907,7 @@ class Mage {
             },
             {
                 id: 6127,
-                name: "6Conjure Water",
+                name: "Conjure Water",
                 icon: "inv_drink_10",
                 level: 30,
                 school: 64,
@@ -922,7 +922,7 @@ class Mage {
             },
             {
                 id: 6129,
-                name: "6Conjure Food",
+                name: "Conjure Food",
                 icon: "inv_misc_food_08",
                 level: 32,
                 school: 64,
@@ -1455,7 +1455,7 @@ class Mage {
             },
             {
                 id: 10053,
-                name: "6Conjure Mana Gem",
+                name: "Conjure Mana Gem",
                 icon: "inv_misc_gem_opal_01",
                 level: 48,
                 school: 64,
@@ -1470,7 +1470,7 @@ class Mage {
             },
             {
                 id: 10054,
-                name: "6Conjure Mana Gem",
+                name: "Conjure Mana Gem",
                 icon: "inv_misc_gem_ruby_01",
                 level: 58,
                 school: 64,
@@ -1499,7 +1499,7 @@ class Mage {
             },
             {
                 id: 10138,
-                name: "6Conjure Water",
+                name: "Conjure Water",
                 icon: "inv_drink_09",
                 level: 40,
                 school: 64,
@@ -1514,7 +1514,7 @@ class Mage {
             },
             {
                 id: 10139,
-                name: "6Conjure Water",
+                name: "Conjure Water",
                 icon: "inv_drink_11",
                 level: 50,
                 school: 64,
@@ -1529,7 +1529,7 @@ class Mage {
             },
             {
                 id: 10140,
-                name: "6Conjure Water",
+                name: "Conjure Water",
                 icon: "inv_drink_18",
                 level: 60,
                 school: 64,
@@ -1544,7 +1544,7 @@ class Mage {
             },
             {
                 id: 10144,
-                name: "6Conjure Food",
+                name: "Conjure Food",
                 icon: "inv_misc_food_11",
                 level: 42,
                 school: 64,
@@ -1559,7 +1559,7 @@ class Mage {
             },
             {
                 id: 10145,
-                name: "6Conjure Food",
+                name: "Conjure Food",
                 icon: "inv_misc_food_33",
                 level: 52,
                 school: 64,
@@ -2789,7 +2789,7 @@ class Mage {
             },
             {
                 id: 27090,
-                name: "6Conjure Water",
+                name: "Conjure Water",
                 icon: "inv_drink_16",
                 level: 70,
                 school: 64,
@@ -2804,7 +2804,7 @@ class Mage {
             },
             {
                 id: 27101,
-                name: "6Conjure Mana Gem",
+                name: "Conjure Mana Gem",
                 icon: "inv_misc_gem_stone_01",
                 level: 68,
                 school: 64,
@@ -3001,7 +3001,7 @@ class Mage {
             },
             {
                 id: 28612,
-                name: "6Conjure Food",
+                name: "Conjure Food",
                 icon: "inv_misc_food_73cinnamonroll",
                 level: 60,
                 school: 64,
@@ -3238,7 +3238,7 @@ class Mage {
             },
             {
                 id: 33717,
-                name: "6Conjure Food",
+                name: "Conjure Food",
                 icon: "inv_misc_food_32",
                 level: 70,
                 school: 64,
@@ -3337,7 +3337,7 @@ class Mage {
             },
             {
                 id: 37420,
-                name: "6Conjure Water",
+                name: "Conjure Water",
                 icon: "inv_drink_waterskin_11",
                 level: 65,
                 school: 64,
@@ -3828,7 +3828,7 @@ class Mage {
             },
             {
                 id: 42955,
-                name: "6Conjure Refreshment",
+                name: "Conjure Refreshment",
                 icon: "ability_mage_conjurefoodrank9",
                 level: 75,
                 school: 64,
@@ -3843,7 +3843,7 @@ class Mage {
             },
             {
                 id: 42956,
-                name: "6Conjure Refreshment",
+                name: "Conjure Refreshment",
                 icon: "ability_mage_conjurefoodrank10",
                 level: 80,
                 school: 64,
@@ -3858,7 +3858,7 @@ class Mage {
             },
             {
                 id: 42985,
-                name: "6Conjure Mana Gem",
+                name: "Conjure Mana Gem",
                 icon: "inv_misc_gem_sapphire_02",
                 level: 77,
                 school: 64,
