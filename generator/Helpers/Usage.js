@@ -18,8 +18,8 @@ class Usage {
         console.error("node generate.js ".white + "(class)".yellow + " [key-options]".green + " > your-file-name.xml".white);
         console.error("");
         console.error("usage examples:".cyan);
-        console.error("node generage.js Warlock > warlock.xml".gray);
-        console.error("node generage.js Priest NOFUNC > priest.xml".gray);
+        console.error("node generate.js Warlock > warlock.xml".gray);
+        console.error("node generate.js Priest NOFUNC > priest.xml".gray);
         console.error("--- CLASSES (Required) ---".yellow);
         console.error(this.classChoices.map(x => x.name).join(",").gray);
         console.error("");

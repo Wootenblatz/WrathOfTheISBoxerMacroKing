@@ -358,7 +358,7 @@ class Warlock {
       },
       {
         id: 693,
-        name: "6Create Soulstone",
+        name: "Create Soulstone",
         icon: "spell_shadow_soulgem",
         level: 18,
         school: 32,
@@ -666,7 +666,7 @@ class Warlock {
       },
       {
         id: 1120,
-        name: "6Drain Soul",
+        name: "Drain Soul",
         icon: "spell_shadow_haunting",
         level: 10,
         school: 32,
@@ -779,7 +779,7 @@ class Warlock {
       },
       {
         id: 2362,
-        name: "6Create Spellstone",
+        name: "Create Spellstone",
         icon: "inv_misc_gem_sapphire_01",
         level: 36,
         school: 32,
@@ -1113,7 +1113,7 @@ class Warlock {
       },
       {
         id: 6366,
-        name: "6Create Firestone",
+        name: "Create Firestone",
         icon: "inv_ammo_firetar",
         level: 28,
         school: 4,
@@ -1198,7 +1198,7 @@ class Warlock {
       },
       {
         id: 8288,
-        name: "6Drain Soul",
+        name: "Drain Soul",
         icon: "spell_shadow_haunting",
         level: 24,
         school: 32,
@@ -1213,7 +1213,7 @@ class Warlock {
       },
       {
         id: 8289,
-        name: "6Drain Soul",
+        name: "Drain Soul",
         icon: "spell_shadow_haunting",
         level: 38,
         school: 32,
@@ -1340,7 +1340,7 @@ class Warlock {
       },
       {
         id: 11675,
-        name: "6Drain Soul",
+        name: "Drain Soul",
         icon: "spell_shadow_haunting",
         level: 52,
         school: 32,
@@ -1761,7 +1761,7 @@ class Warlock {
       },
       {
         id: 17727,
-        name: "6Create Spellstone",
+        name: "Create Spellstone",
         icon: "inv_misc_gem_sapphire_01",
         level: 48,
         school: 32,
@@ -1776,7 +1776,7 @@ class Warlock {
       },
       {
         id: 17728,
-        name: "6Create Spellstone",
+        name: "Create Spellstone",
         icon: "inv_misc_gem_sapphire_01",
         level: 60,
         school: 32,
@@ -1917,7 +1917,7 @@ class Warlock {
       },
       {
         id: 17951,
-        name: "6Create Firestone",
+        name: "Create Firestone",
         icon: "inv_ammo_firetar",
         level: 36,
         school: 4,
@@ -1932,7 +1932,7 @@ class Warlock {
       },
       {
         id: 17952,
-        name: "6Create Firestone",
+        name: "Create Firestone",
         icon: "inv_ammo_firetar",
         level: 46,
         school: 4,
@@ -1947,7 +1947,7 @@ class Warlock {
       },
       {
         id: 17953,
-        name: "6Create Firestone",
+        name: "Create Firestone",
         icon: "inv_ammo_firetar",
         level: 56,
         school: 4,
@@ -2087,7 +2087,7 @@ class Warlock {
       },
       {
         id: 20752,
-        name: "6Create Soulstone",
+        name: "Create Soulstone",
         icon: "spell_shadow_soulgem",
         level: 30,
         school: 32,
@@ -2102,7 +2102,7 @@ class Warlock {
       },
       {
         id: 20755,
-        name: "6Create Soulstone",
+        name: "Create Soulstone",
         icon: "spell_shadow_soulgem",
         level: 40,
         school: 32,
@@ -2117,7 +2117,7 @@ class Warlock {
       },
       {
         id: 20756,
-        name: "6Create Soulstone",
+        name: "Create Soulstone",
         icon: "spell_shadow_soulgem",
         level: 50,
         school: 32,
@@ -2132,7 +2132,7 @@ class Warlock {
       },
       {
         id: 20757,
-        name: "6Create Soulstone",
+        name: "Create Soulstone",
         icon: "spell_shadow_soulgem",
         level: 60,
         school: 32,
@@ -2287,7 +2287,7 @@ class Warlock {
       },
       {
         id: 27217,
-        name: "6Drain Soul",
+        name: "Drain Soul",
         icon: "spell_shadow_haunting",
         level: 67,
         school: 32,
@@ -2414,7 +2414,7 @@ class Warlock {
       },
       {
         id: 27238,
-        name: "6Create Soulstone",
+        name: "Create Soulstone",
         icon: "spell_shadow_soulgem",
         level: 70,
         school: 32,
@@ -2443,7 +2443,7 @@ class Warlock {
       },
       {
         id: 27250,
-        name: "6Create Firestone",
+        name: "Create Firestone",
         icon: "inv_ammo_firetar",
         level: 66,
         school: 4,
@@ -2528,7 +2528,7 @@ class Warlock {
       },
       {
         id: 28172,
-        name: "6Create Spellstone",
+        name: "Create Spellstone",
         icon: "inv_misc_gem_sapphire_01",
         level: 66,
         school: 32,
@@ -3170,7 +3170,7 @@ class Warlock {
       },
       {
         id: 47855,
-        name: "6Drain Soul",
+        name: "Drain Soul",
         icon: "spell_shadow_haunting",
         level: 77,
         school: 32,
@@ -3325,7 +3325,7 @@ class Warlock {
       },
       {
         id: 47884,
-        name: "6Create Soulstone",
+        name: "Create Soulstone",
         icon: "spell_shadow_soulgem",
         level: 76,
         school: 32,
@@ -3340,7 +3340,7 @@ class Warlock {
       },
       {
         id: 47886,
-        name: "6Create Spellstone",
+        name: "Create Spellstone",
         icon: "inv_misc_gem_sapphire_01",
         level: 72,
         school: 32,
@@ -3355,7 +3355,7 @@ class Warlock {
       },
       {
         id: 47888,
-        name: "6Create Spellstone",
+        name: "Create Spellstone",
         icon: "inv_misc_gem_sapphire_01",
         level: 78,
         school: 32,
@@ -3676,7 +3676,7 @@ class Warlock {
       },
       {
         id: 60219,
-        name: "6Create Firestone",
+        name: "Create Firestone",
         icon: "inv_ammo_firetar",
         level: 74,
         school: 4,
@@ -3691,7 +3691,7 @@ class Warlock {
       },
       {
         id: 60220,
-        name: "6Create Firestone",
+        name: "Create Firestone",
         icon: "inv_ammo_firetar",
         level: 80,
         school: 4,
