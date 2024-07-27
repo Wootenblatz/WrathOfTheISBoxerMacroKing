@@ -18,3 +18,8 @@ Leave blank to use modifiers (ctrl,alt,shift) with the following keys:
 NUM keys, F1-F9, HOME, END, PGUP, PGDN
 
 Pass NOFUNC to exclude the F1-F9 keys.
+
+## How can I use the XML files this program generates?
+
+Open the XML file in any text editor, such as Notepad or Visual Studio Code.  Select all of the text in the file and copy it to the clipboard.  Open your ISBoxer config, right click on the Macro Sets entry in the tree and select `Paste WoW Macro Sets from Clipboard`
+
