@@ -43,7 +43,7 @@ Healing and buff abilities should always try to cast on the mouseover target fir
 
 **If you are comfortable using Git**
 
-Fork the project and correct the problem by modifying the .js files in the Data directory.  
+Fork the project and correct the problem by modifying the .js files in the `generator/Data` directory.  
 
 There is a file for each class as well as files for Dispels, Buffs and Healing.  If you add an ability to a class and it matches one of the dedicated files, please add it there as well.  Try to keep all of your additions in alphabetical order, so they're easier to find when people import macros into ISBoxer.
 
