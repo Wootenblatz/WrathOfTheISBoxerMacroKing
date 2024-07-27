@@ -1,3 +1,4 @@
+const Evoker = require('./Evoker');
 const Warrior = require('./Warrior');
 const Paladin = require('./Paladin');
 const Hunter = require('./Hunter');
@@ -12,7 +13,7 @@ const Druid = require('./Druid');
 class ClassList {
 
     getValues() {
-        return [this.warrior(), this.paladin(), this.hunter(), this.rogue(), this.priest(), this.deathKnight(), this.shaman(), this.mage(), this.warlock(), this.druid()];
+        return [this.warrior(), this.paladin(), this.hunter(), this.rogue(), this.priest(), this.deathKnight(), this.shaman(), this.mage(), this.warlock(), this.druid(), this.evoker()];
     }
 
     getNames() {
@@ -59,6 +60,11 @@ class ClassList {
     druid() {
         return {id: 10, name: "Druid", obj: new Druid()};
     }
+
+    evoker() {
+        return {id: 11, name: "Evoker", obj: new Evoker()};
+    }
+
 }
 
 module.exports = ClassList;

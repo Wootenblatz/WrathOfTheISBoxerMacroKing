@@ -20,9 +20,8 @@ class SpellFilter {
     UniqueSpells() {
         let tempSpells = [];
         this.classObj.getSpells().forEach(function (spell) {
-            let spellName = spell.name.replace("@", "");
-            if (tempSpells.indexOf(spellName) < 0) {
-                tempSpells.push(spellName);
+            if (tempSpells.indexOf(spell) < 0) {
+                tempSpells.push(spell);
             }
         });
         return tempSpells;
