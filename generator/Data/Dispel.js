@@ -11,18 +11,17 @@ class Dispel {
 
     getSpells() {
         return [
+            "Abolish Disease",
+            "Abolish Poison",
             "Cleanse Spirit",
-            "Remove Curse",
+            "Cleanse",
+            "Cure Disease",
+            "Cure Poison",
             "Cure Toxins",
             "Dispel Magic",
-            "Cure Disease",
-            "Abolish Disease",
-            "Purify",
-            "Abolish Poison",
-            "Cleanse",
-            "Cure Poison",
             "Mass Dispel",
-            "Expunge",
+            "Purify",
+            "Remove Curse",
         ];
     }
 }
