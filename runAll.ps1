@@ -1,6 +1,6 @@
 $nodejs = (Get-Command node).Path
 
-$classSpecs = "Warrior","Paladin","Hunter","Rogue","Priest","DeathKnight","Shaman","Mage","Warlock","Druid"
+$classSpecs = "Warrior","Paladin","Hunter","Rogue","Priest","DeathKnight","Shaman","Mage","Warlock","Druid","Evoker"
 foreach ($classSpec in $classSpecs) {
     $classDir = ".\Macros\" + $classSpec
     if(!(Test-Path -Path $classDir )){
